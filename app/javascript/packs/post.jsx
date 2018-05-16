@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import postStore from '../stores/postStore';
-import NavBar from '../containers/NavBar';
-import ContactPage from '../containers/ContactPage';
+import Nav from '../components/Nav';
+import './application.scss';
 
 class App extends Component {
   render(){
-    return <ContactPage />;
+    return <Nav />;
   }
 }
 
