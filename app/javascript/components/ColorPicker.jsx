@@ -3,9 +3,6 @@ import PropTypes from 'prop-types'
 
 
 class ColorPicker extends Component {
-	static defaultProps = {
-		value: 'teal' ,
-	}
 
 	static propTypes = {
 		value: PropTypes.string,
