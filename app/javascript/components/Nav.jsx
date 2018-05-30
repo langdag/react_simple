@@ -1,5 +1,5 @@
 import React from 'react'
-import Select from '../components/Select'
+import PostForm from '../components/PostForm'
 
 const Nav = props => {
    return (
@@ -9,7 +9,7 @@ const Nav = props => {
     	  <li className="nav-item"><a className="nav-link" href="#">Profile</a></li>
     	  <li className="nav-item"><a className="nav-link" href="#">Messages</a></li>
     	</ul>
-    	<Select />
+    	<PostForm />
     </div>
   )
 };
