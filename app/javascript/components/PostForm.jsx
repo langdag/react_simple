@@ -17,7 +17,7 @@ class PostForm extends Component {
                  </label>
                 </div>
                 <div className="form-group">
-                 <label>Post Body
+                 <label>Post Description
                  <textarea
                    class="form-control"
                    ref="desc"
